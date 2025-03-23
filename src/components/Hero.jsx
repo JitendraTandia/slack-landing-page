@@ -1,13 +1,14 @@
 import React from "react";
 import Button from "./Button";
 import gLogo from "/assets/glogo.png"
+import heroImg from "/assets/hero.webp"
 
 const Hero = () => {
   return (
-    <div className="py-10 px-10 flex justify-between mt-4">
+    <div className="py-10 px-10 flex justify-between items-center mt-4">
       <div className="left flex flex-col gap-8 w-[40%]">
         <h1 className=" text-5xl font-bold ">Slack is where the future works</h1>
-        <p className="">
+        <p>
           Transform the way you work with one place for everyone and everything
           you need to get things done.
         </p>
@@ -30,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="right">
-        <img src="" alt="heroImg" />
+        <img className="rounded-xl size-70 w-fit" src={heroImg} alt="heroImg" />
       </div>
     </div>
   );

@@ -8,8 +8,8 @@ import Button from './Button';
 const Header = () => {
   return (
     <nav className='flex justify-between items-center p-4 '>
-        <div className='left flex gap-4 items-center'>
-            <img width={150} src={Logo} alt="logo" />
+        <div className='left flex gap-8 items-center'>
+            <img className='cursor-pointer' width={150} src={Logo} alt="logo" />
             <div className='flex gap-4 font-semibold'>
                 <div className='flex justify-center items-center cursor-pointer'>
                 <h1>Product</h1>
@@ -20,7 +20,7 @@ const Header = () => {
                 <h1 className='cursor-pointer'>Pricing</h1>
             </div>
         </div>
-        <div className='right flex gap-4 items-center justify-center'>
+        <div className='right flex gap-8 items-center justify-center'>
             <IoSearch size={25} className='cursor-pointer'/>
             <button className='cursor-pointer'>Sign in</button>
             <Button  text={"talk to sales"} className={"border-2 cursor-pointer rounded border-[#661f69] px-4 py-2 uppercase"}/>

@@ -9,7 +9,7 @@ import devacurl from "/assets/decacurl.png";
 const Marquee = () => {
   return (
     <div className="max-w-7xl px-10 mt-6">
-      <div className="flex items-center justify-between  gap-4">
+      <div className="flex items-center bg-cover  justify-between  gap-4">
         <img src={foxLogo} width={100} alt="googleLogo" />
         <img src={lonelyplanet} width={100} alt="googleLogo" />
         <img src={intuit} width={100} alt="googleLogo" />
